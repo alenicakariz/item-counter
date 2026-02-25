@@ -1,0 +1,64 @@
+body{
+    padding-top: 15rem;
+}
+
+p{
+    margin: 0;
+    font-size: 1.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+    background-color: black;
+    max-width: fit-content;
+    margin:  auto;
+    padding: 1rem 1.5rem;
+    border-radius: 2.5rem;
+    box-shadow: 2px 3px 20px 1px rgba(48, 48, 48, 0.85);
+}
+
+.text{
+    color: whitesmoke;
+}
+
+.container-main button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',Arial, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.subtract, .add{
+    color: whitesmoke;
+    background-color: rgb(62, 62, 62);
+    padding:0.2rem 1.3rem;
+    border-radius: 1.5rem;
+    font-size: 1.8rem;
+    box-shadow: 2px 3px 20px 1px rgba(82, 82, 82, 0.9);
+}
+
+.bin{
+    width: 1.5rem;
+}
+
+
+.button-clear{
+    display: flex;
+    background-color: rgb(206, 80, 80);
+    padding: 0.5rem 1.1rem 0.5rem 1rem;
+    border-radius: 1.5rem;
+    color: whitesmoke;
+    gap:0.4rem;
+    font-size: 1.3rem;
+    box-shadow: 2px 3px 20px 1px rgb(82, 82, 82, 0.9);
+}
+
+@media(max-width: 500px){
+    html{
+        font-size: 14px;
+    }
+}
